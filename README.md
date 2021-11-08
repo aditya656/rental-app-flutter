@@ -1,10 +1,16 @@
-# bmi_calculator
+# Rental Shop App
 
 A new Flutter project.
 
-## Getting Started
+User can perform basic create, update, delete operations and this will also be updated in backend
+User can mark items as a favourite 
+Detailed summary of the orders will be provided to user including total amount and the items they purchased
+Validations 
+Circular progress indicator and page refreshing
+User authentication
+Firebase Auth REST API 
+Chatbot
 
-This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
