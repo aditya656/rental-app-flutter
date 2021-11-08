@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../providers/product.dart';
-import '../providers/product_provider.dart';
+import '../providers/products.dart';
 
 class EditProductScreen extends StatefulWidget {
   static const routeName = '/edit-product';
@@ -103,17 +103,17 @@ class _EditProductScreenState extends State<EditProductScreen> {
         await showDialog(
           context: context,
           builder: (ctx) => AlertDialog(
-            title: Text('An error occurred!'),
-            content: Text('Something went wrong.'),
-            actions: <Widget>[
-              FlatButton(
-                child: Text('Okay'),
-                onPressed: () {
-                  Navigator.of(ctx).pop();
-                },
-              )
-            ],
-          ),
+                title: Text('An error occurred!'),
+                content: Text('Something went wrong.'),
+                actions: <Widget>[
+                  FlatButton(
+                    child: Text('Okay'),
+                    onPressed: () {
+                      Navigator.of(ctx).pop();
+                    },
+                  )
+                ],
+              ),
         );
       }
       // finally {
