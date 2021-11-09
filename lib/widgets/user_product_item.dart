@@ -38,6 +38,7 @@ class UserProductItem extends StatelessWidget {
                   await Provider.of<Products>(context, listen: false)
                       .deleteProduct(id);
                 } catch (error) {
+                  // ignore: deprecated_member_use
                   scaffold.showSnackBar(
                     SnackBar(
                       content: Text('Deleting failed!', textAlign: TextAlign.center,),

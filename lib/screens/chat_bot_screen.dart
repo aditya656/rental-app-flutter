@@ -21,6 +21,7 @@ class _ChatBotScreenState extends State<ChatBotScreen> {
   
   @override
   Widget build(BuildContext context) {
+    // ignore: non_constant_identifier_names
     double Height = MediaQuery. of(context). size. height;
     return Scaffold(
       backgroundColor: Colors.grey[300],

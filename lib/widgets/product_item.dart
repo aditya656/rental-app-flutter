@@ -40,6 +40,7 @@ class ProductItem extends StatelessWidget {
                   icon: Icon(
                     product.isFavorite ? Icons.favorite : Icons.favorite_border,
                   ),
+                  // ignore: deprecated_member_use
                   color: Theme.of(context).accentColor,
                   onPressed: () {
                     product.toggleFavoriteStatus(
@@ -59,7 +60,9 @@ class ProductItem extends StatelessWidget {
             ),
             onPressed: () {
               cart.addItem(product.id, product.price, product.title);
+              // ignore: deprecated_member_use
               Scaffold.of(context).hideCurrentSnackBar();
+              // ignore: deprecated_member_use
               Scaffold.of(context).showSnackBar(
                 SnackBar(
                   content: Text(
@@ -75,6 +78,7 @@ class ProductItem extends StatelessWidget {
                 ),
               );
             },
+            // ignore: deprecated_member_use
             color: Theme.of(context).accentColor,
           ),
         ),
