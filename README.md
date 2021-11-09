@@ -3,20 +3,18 @@
 A new Flutter project.
 
 User can perform basic create, update, delete operations and this will also be updated in backend
-User can mark items as a favourite 
-Detailed summary of the orders will be provided to user including total amount and the items they purchased
-Validations 
-Circular progress indicator and page refreshing
-User authentication
-Firebase Auth REST API 
-Chatbot
 
+- User can mark items as a favourite 
+- Detailed summary of the orders will be provided to user including total amount and the items they purchased
+- Validations 
+- Circular progress indicator and page refreshing
+- User authentication
+- Firebase Auth REST API 
+- Chatbot
 
-A few resources to get you started if this is your first Flutter project:
+You can test out this app by downloading the apk from 
+[this](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/aditya656/rental-app-flutter/blob/gh-pages/app-release.apk "Download Release Apk") Link
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Flutter Documentation to get started with the project:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[online documentation](https://flutter.dev/docs)
