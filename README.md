@@ -12,8 +12,8 @@ User can perform basic create, update, delete operations and this will also be u
 - Firebase Auth REST API 
 - Chatbot
 
-You can test out this app by downloading the apk from 
-[this](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/aditya656/rental-app-flutter/blob/gh-pages/app-release.apk "Download Release Apk") Link
+<!-- You can test out this app by downloading the apk from  -->
+<!-- [this](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/aditya656/rental-app-flutter/blob/gh-pages/app-release.apk "Download Release Apk") Link -->
 
 Flutter Documentation to get started with the project:
 
